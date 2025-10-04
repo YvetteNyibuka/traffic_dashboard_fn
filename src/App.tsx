@@ -88,7 +88,7 @@ export default function App() {
           "& .MuiDrawer-paper": {
             width: drawerWidth,
             boxSizing: "border-box",
-            background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+            background: "linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%)",
             color: "white",
             border: "none",
             boxShadow: "0 10px 30px rgba(0,0,0,0.3)",
@@ -187,7 +187,7 @@ export default function App() {
           >
             <CardContent sx={{ p: 2, "&:last-child": { pb: 2 } }}>
               <Box sx={{ display: "flex", alignItems: "center", mb: 1 }}>
-                <SpeedIcon sx={{ color: "#4ade80", mr: 1, fontSize: 20 }} />
+                <SpeedIcon sx={{ color: "#10b981", mr: 1, fontSize: 20 }} />
                 <Typography
                   variant="body2"
                   sx={{ color: "white", fontWeight: 500 }}
@@ -199,7 +199,7 @@ export default function App() {
                 label="Online"
                 size="small"
                 sx={{
-                  bgcolor: "#4ade80",
+                  bgcolor: "#10b981",
                   color: "white",
                   fontWeight: 500,
                 }}
@@ -290,7 +290,7 @@ export default function App() {
               <Card
                 sx={{
                   background:
-                    "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+                    "linear-gradient(135deg, #3b82f6 0%, #1e40af 100%)",
                   color: "white",
                   height: 140,
                   position: "relative",
@@ -329,7 +329,7 @@ export default function App() {
               <Card
                 sx={{
                   background:
-                    "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+                    "linear-gradient(135deg, #06b6d4 0%, #0891b2 100%)",
                   color: "white",
                   height: 140,
                   position: "relative",
@@ -359,7 +359,7 @@ export default function App() {
               <Card
                 sx={{
                   background:
-                    "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+                    "linear-gradient(135deg, #0ea5e9 0%, #0284c7 100%)",
                   color: "white",
                   height: 140,
                   position: "relative",
@@ -389,7 +389,7 @@ export default function App() {
               <Card
                 sx={{
                   background:
-                    "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+                    "linear-gradient(135deg, #10b981 0%, #059669 100%)",
                   color: "white",
                   height: 140,
                   position: "relative",
@@ -439,21 +439,21 @@ export default function App() {
                   <Line
                     type="monotone"
                     dataKey="ir1"
-                    stroke="#667eea"
+                    stroke="#3b82f6"
                     strokeWidth={3}
                     name="IR Sensor 1"
                   />
                   <Line
                     type="monotone"
                     dataKey="ir2"
-                    stroke="#f093fb"
+                    stroke="#06b6d4"
                     strokeWidth={3}
                     name="IR Sensor 2"
                   />
                   <Line
                     type="monotone"
                     dataKey="ir3"
-                    stroke="#4facfe"
+                    stroke="#10b981"
                     strokeWidth={3}
                     name="IR Sensor 3"
                   />
@@ -555,21 +555,21 @@ export default function App() {
                   <Line
                     type="monotone"
                     dataKey="ir1"
-                    stroke="#667eea"
+                    stroke="#3b82f6"
                     strokeWidth={2}
                     name="IR Sensor 1"
                   />
                   <Line
                     type="monotone"
                     dataKey="ir2"
-                    stroke="#f093fb"
+                    stroke="#06b6d4"
                     strokeWidth={2}
                     name="IR Sensor 2"
                   />
                   <Line
                     type="monotone"
                     dataKey="ir3"
-                    stroke="#4facfe"
+                    stroke="#10b981"
                     strokeWidth={2}
                     name="IR Sensor 3"
                   />
@@ -595,7 +595,7 @@ export default function App() {
               <Card
                 sx={{
                   background:
-                    "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+                    "linear-gradient(135deg, #3b82f6 0%, #1e40af 100%)",
                   color: "white",
                 }}
               >
@@ -620,7 +620,7 @@ export default function App() {
               <Card
                 sx={{
                   background:
-                    "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+                    "linear-gradient(135deg, #06b6d4 0%, #0891b2 100%)",
                   color: "white",
                 }}
               >
@@ -643,7 +643,7 @@ export default function App() {
               <Card
                 sx={{
                   background:
-                    "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+                    "linear-gradient(135deg, #0ea5e9 0%, #0284c7 100%)",
                   color: "white",
                 }}
               >
